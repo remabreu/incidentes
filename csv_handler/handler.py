@@ -46,7 +46,13 @@ with open('/Users/rodrigo.abreu/Downloads/incident.csv', 'rb') as csvfile:
     for key in sorted(incs_by_week):
         print (key.isoformat(), incs_by_week[key])
 
-
+#TODO: Relação Inflow/Outflow e passivo
+#TODO: Outros times GE e GShow
+#TODO: INCs por semana por time
+#TODO: INCs por semana por produto
+#TODO: MTBF e MTTR por mês e por Q nos últimos 6 meses
+#TODO: pegar tempo desepndido com a resolução de INCs
+#TODO: comparar com outras entregas de feautres
 
 
 
